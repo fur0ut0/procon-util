@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ef7698265a516ba80518c7e6b3269861db84bb144cde4d82b4ef6109652022a3"
+            "sha256": "3354f19d396d183daaed94d23a1f02029916b6ed4e465c922972ac943b8bfb1d"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -193,6 +193,14 @@
             ],
             "markers": "python_version >= '3.6'",
             "version": "==3.10"
+        },
+        "importlab": {
+            "hashes": [
+                "sha256:124cfa00e8a34fefe8aac1a5e94f56c781b178c9eb61a1d3f60f7e03b77338d3",
+                "sha256:b3893853b1f6eb027da509c3b40e6787e95dd66b4b66f1b3613aad77556e1465"
+            ],
+            "markers": "python_full_version >= '3.6.0'",
+            "version": "==0.8.1"
         },
         "jsonschema": {
             "hashes": [
@@ -429,11 +437,18 @@
             "markers": "python_version >= '3.9'",
             "version": "==3.0.2"
         },
+        "networkx": {
+            "hashes": [
+                "sha256:307c3669428c5362aab27c8a1260aa8f47c4e91d3891f48be0141738d8d053e1",
+                "sha256:df5d4365b724cf81b8c6a7312509d0c22386097011ad1abe274afd5e9d3bbc5f"
+            ],
+            "markers": "python_version >= '3.10'",
+            "version": "==3.4.2"
+        },
         "online-judge-api-client": {
             "hashes": [
                 "sha256:2e7bf210db2709ab41b85454c76f7901231ddb0990c52f5c01624a53a28a534d"
             ],
-            "index": "pypi",
             "markers": "python_version >= '3.6'",
             "version": "==10.10.1"
         },
@@ -452,6 +467,14 @@
             "index": "pypi",
             "markers": "python_version >= '3.6'",
             "version": "==11.5.1"
+        },
+        "online-judge-verify-helper": {
+            "hashes": [
+                "sha256:215ae717dc7d038125ee23791340472eef366e760f3bddd0186dcdca69834b8d"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.6'",
+            "version": "==5.6.0"
         },
         "packaging": {
             "hashes": [

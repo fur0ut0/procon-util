@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 aclogin = "*"
-online-judge-api-client = "*"
+online-judge-verify-helper = "*"
 online-judge-template-generator = "*"
 online-judge-tools = "*"
 pipenv = "*"
