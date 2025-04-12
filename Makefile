@@ -12,6 +12,7 @@ release: a.out
 debug: a.debug.out
 clean:
 	$(RM) -rf test a.out a.debug.out
+	git checkout -- main.cpp
 
 a.out: main.cpp
 	$(CXX) -o $@ $< $(CXXFLAGS)
